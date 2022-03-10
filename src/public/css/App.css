@@ -1,0 +1,24 @@
+:root {
+  --primary : #1b5718;
+  --secondary : #468088;
+  --dark : #251e1e;
+  --light : #eee;
+}
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family : 'Fira Sans', sans-serif;
+}
+
+.App {
+  display : flex;
+  min-height : 100vh;
+  align-items : center;
+  justify-content:center;
+}
+
+body{
+  background-color: var(--light);
+}
